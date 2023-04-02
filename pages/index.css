@@ -160,6 +160,10 @@
   margin: 0 auto;
 }
 
+.recipes__video-iframe {
+  border: none;
+}
+
 .recipes__video-caption {
   color: white;
   display: flex;
