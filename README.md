@@ -13,4 +13,4 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+One feature that I'd like to implement on a future project would be the use of different iframes and widgets. We learned how to created maps, books, music, etc in the teachings but implementing them into the projects would be seomthing I look forward to.
