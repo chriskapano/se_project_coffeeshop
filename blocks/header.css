@@ -62,7 +62,7 @@
   color: #838383;
 }
 
-.header__column {
+.header__hours {
   display: flex;
   flex-direction: column;
 }

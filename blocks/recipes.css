@@ -31,7 +31,6 @@
 }
 
 .recipes__videos {
-  height: 273px;
   margin: 0 auto;
   gap: 80px;
   display: flex;
@@ -40,6 +39,10 @@
 
 .recipes__video {
   margin: 0 auto;
+}
+
+.recipes__video-caption-paragraph {
+  margin: 0;
 }
 
 .recipes__iframe {

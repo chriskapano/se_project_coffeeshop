@@ -3,7 +3,7 @@
 }
 
 .card__title {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
@@ -23,9 +23,7 @@
   line-height: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-bottom: 16px;
-  border-bottom: solid 1px;
   padding-left: 0;
 }
 
@@ -34,5 +32,8 @@
 }
 
 .card__list-divider {
-  border-bottom: solid;
+  border-bottom: thin solid black;
+  display: block;
+  min-width: 50px;
+  flex-grow: 1;
 }
