@@ -4,25 +4,19 @@
   align-items: start;
 }
 
-.nav__logo {
-  width: 125px;
-  height: 142px;
-}
-
 .nav__links {
   display: flex;
   align-items: center;
   list-style: none;
   column-gap: 20px;
-  padding-right: 80px;
-  margin: 0;
+  margin: 0 80px 0 0;
   font-weight: 500;
   font-style: normal;
 }
 
 .nav__link {
   color: black;
-  font-weight: bold;
+  font-weight: 500;
   text-decoration: none;
 }
 

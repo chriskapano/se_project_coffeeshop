@@ -3,7 +3,7 @@
 }
 
 .card__title {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 32px;
@@ -11,13 +11,15 @@
 }
 
 .card__list-item {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 16px;
   line-height: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
+  border-bottom: solid 1px;
+  padding-left: 0;
 }
 
 .card__list-divider {

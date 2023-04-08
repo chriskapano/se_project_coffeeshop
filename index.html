@@ -30,7 +30,7 @@
           <img
             src="./images/logo_coffee_shop.svg"
             alt="Coffee Shop Logo"
-            class="nav__logo"
+            class="logo"
           />
           <ul class="nav__links">
             <li>
@@ -61,20 +61,16 @@
           class="header__image"
         />
         <div class="header__footer">
-          <div class="header__column">
-            <p class="header__footer-paragraph">Hours:</p>
-            <p class="header__footer-paragraph">
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">
               Monday – Friday (10:00 – 19:00)
             </p>
-            <p class="header__footer-paragraph">
+            <p class="header__paragraph">
               Saturday – Sunday (11:00 – 18:00)
             </p>
-          </div>
-          <div class="header__column">
-            <p class="header__footer-paragraph-right">
+            <p class="header__paragraph header__paragraph-right">
               200 Success Avenue, The Town of Practicum
             </p>
-          </div>
         </div>
       </header>
 
@@ -89,8 +85,6 @@
             <div class="recipes__video">
               <iframe
                 class="recipes__iframe"
-                width="480"
-                height="273"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 title="The Ultimate AeroPress Technique (Episode #3)"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -105,8 +99,6 @@
             <div class="recipes__video">
               <iframe
                 class="recipes__iframe"
-                width="480"
-                height="273"
                 src="https://www.youtube.com/embed/st571DYYTR8"
                 title="The Ultimate French Press Technique"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -160,19 +152,15 @@
                   required
                 />
                 <button class="form__button" type="submit">Book a table</button>
-
-                <div class="form__in-line">
+                <label class="form__label form__label_type_checkbox" for="terms-of-use">
                   <input
                     class="form__checkbox"
                     type="checkbox"
                     name="terms-of-use"
                     id="terms-of-use"
                     required
-                  />
-                  <label class="form__label" for="terms-of-use"
-                    >I agree with the terms of use</label
-                  >
-                </div>
+                  />I agree with the terms of use
+                  </label>
               </fieldset>
             </form>
           </div>
@@ -184,90 +172,90 @@
             use biodegradable cups. All teas from our collection are $2/cup.
           </h3>
           <div class="menu__cards">
-            <ul class="card">
-              <li class="card__title">Filter</li>
-              <li class="card__list-item">
+            <div class="card">
+              <h4 class="card__title">Filter</h4>
+              <ul class="card__list-item">
                 Regular (12 oz)
                 <span class="card__list-divider"></span>
                 $1
-              </li>
-              <li class="card__list-item">
+              </ul>
+              <ul class="card__list-item">
                 Large (16 oz)
                 <span class="card__list-divider"></span>
                 $1.25
-              </li>
-              <li class="card__list-item">
+              </ul>
+              <ul class="card__list-item">
                 XL (20 oz)
                 <span class="card__list-divider"></span>
                 $1.5
-              </li>
-              <li class="card__list-item">
+              </ul>
+              <ul class="card__list-item">
                 Party-size (24 oz, decaf)
                 <span class="card__list-divider"></span>
                 $1.75
-              </li>
-              <li class="card__list-item">
+              </ul>
+              <ul class="card__list-item">
                 Iced Coffee (16 oz)
                 <span class="card__list-divider"></span>
                 $1.25
-              </li>
-            </ul>
-            <ul class="card">
-              <li class="card__title">Espresso</li>
-              <li class="card__list-item">
+              </ul>
+            </div>
+            <div class="card">
+              <h4 class="card__title">Espresso</h4>
+              <ul class="card__list-item">
                 Macchiato
                 <span class="card__list-divider"></span>
                 $2.25
-              </li>
-              <li class="card__list-item">
+              </ul>
+              <ul class="card__list-item">
                 Cortado
                 <span class="card__list-divider"></span>
                 $2.5
-              </li>
-              <li class="card__list-item">
+              </ul>
+              <ul class="card__list-item">
                 Mocha
                 <span class="card__list-divider"></span>
                 $3
-              </li>
-              <li class="card__list-item">
+              </ul>
+              <ul class="card__list-item">
                 Sunrise in the Bay Area (decaf)
                 <span class="card__list-divider"></span>
                 $10
-              </li>
-            </ul>
-            <ul class="card">
-              <li class="card__title">Baked Goods</li>
-              <li class="card__list-item">
+              </ul>
+            </div>
+            <div class="card">
+              <h4 class="card__title">Baked Goods</h4>
+              <ul class="card__list-item">
                 Almond Croissant
                 <span class="card__list-divider"></span>
                 $2
-              </li>
-              <li class="card__list-item">
+              </ul>
+              <ul class="card__list-item">
                 Banana Bread
                 <span class="card__list-divider"></span>
                 $1.75
-              </li>
-              <li class="card__list-item">
+              </ul>
+              <ul class="card__list-item">
                 Key Lime Pie
                 <span class="card__list-divider"></span>
                 $3
-              </li>
-              <li class="card__list-item">
+              </ul>
+              <ul class="card__list-item">
                 Blue Velvet Cake
                 <span class="card__list-divider"></span>
                 $3.75
-              </li>
-              <li class="card__list-item">
+              </ul>
+              <ul class="card__list-item">
                 Web Cookie
                 <span class="card__list-divider"></span>
                 $2
-              </li>
-              <li class="card__list-item">
+              </ul>
+              <ul class="card__list-item">
                 Fresh Bug’uette
                 <span class="card__list-divider"></span>
                 $0.25
-              </li>
-            </ul>
+              </ul>
+            </div>
           </div>
         </section>
         <section id="contacts-page" class="about">
@@ -280,7 +268,7 @@
             <p class="about__paragraph">
               Our main mission is keeping guests cozy and energized.
             </p>
-            <p class="about__paragraph">
+            <p class="about__paragraph about__paragraph-bottom">
               Besides that, we try to reduce our environmental impact — so we
               don't sell single-use cups. But you can buy one of our reusable
               cups!
@@ -292,15 +280,14 @@
       </main>
 
       <footer class="footer">
-        <div class="footer__content">
           <img
             class="footer__logo"
             src="./images/practicum_logo.svg"
             alt="Practicum Logo"
           />
-          <div class="footer__column-right">
-            <h3 class="footer__social-heading">Social Media</h3>
-            <ul class="footer__list">
+          <ul class="footer__column">
+            <li class="footer__social-heading">Social Media</li>
+            <li class="footer__list">
               <li class="footer__list-item">
                 <a class="footer__social-link" href="#">
                   <img
@@ -311,7 +298,7 @@
                   Facebook
                 </a>
               </li>
-              <li class="footer__list-item">
+              <li class="footer__list-item footer__list-item-last">
                 <a class="footer__social-link" href="#">
                   <img
                     class="footer__social-icon"
@@ -321,10 +308,9 @@
                   Instagram
                 </a>
               </li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer__copyright">© 2023 Chris Kapano</div>
+            </li>
+          </ul>
+        <p class="footer__copyright">© 2023 Chris Kapano</p>
       </footer>
     </div>
   </body>

@@ -1,10 +1,10 @@
 .about {
-  height: 100vh;
   background-color: #0a2850;
   position: relative;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 173px;
 }
 
 .about__title {
@@ -16,11 +16,12 @@
   z-index: 1;
   margin-top: 100px;
   margin-left: 80px;
+  margin-bottom: 0;
   max-width: 251px;
 }
 
 .about__content {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   color: white;
@@ -30,13 +31,17 @@
   max-width: 660px;
   top: 119px;
   right: 80px;
-  bottom: 153px;
+  bottom: 173px;
   display: flex;
   flex-direction: column;
 }
 
 .about__paragraph {
-  margin: 10px;
+  margin: 0 0 20px 0;
+}
+
+.about__paragraph-bottom {
+  margin-bottom: 0;
 }
 
 .about__circle {
