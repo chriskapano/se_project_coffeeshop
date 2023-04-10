@@ -57,9 +57,13 @@
   bottom: 40px;
   width: 100%;
   padding-left: 80px;
+  padding-right: 80px;
   box-sizing: border-box;
   font-weight: 500;
   color: #838383;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .header__hours {
@@ -69,10 +73,4 @@
 
 .header__paragraph {
   margin: 0;
-}
-
-.header__paragraph_right {
-  position: absolute;
-  right: 80px;
-  bottom: 0px;
 }
